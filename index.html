@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Finder</title>
+</head>
+
+<style>
+    body {
+        background-color: rgb(102, 173, 175);
+        text-align: center;
+    }
+    
+    input[type="text"] {
+        margin: 10px;
+    }
+    
+    #songs {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    
+    article {
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Song Finder</h1>
+        <label for="searchInput">Search for your favorite artist:</label>
+        <input type="text" id="searchInput">
+        <button>Search</button>
+        <hr>
+    </header>
+
+    <main id="songs">
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
